@@ -1,35 +1,20 @@
-*.py[cod]
-
-# C extensions
-*.so
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-
-# Installer logs
+*.pyc
+*.swp
+*.project*
+*.pydev*
+*.settings*
+*compiled*
+/db
+/db/*
+/doc-built
+/doc-src/_build
+/data
+/data/*
+/app-builds
+/build
 pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+src/plater/dojo/static/dojo/js/dojo
+src/plater/dojo/static/dojo/js/dijit
+src/plater/dojo/static/dojo/js/dojox
+src/plater/dojo/static/dojo/js/util
+src/plater/dojo/static/dojo/js/jshint
